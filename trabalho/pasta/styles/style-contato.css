@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+body{
+    background-color: rgb(84, 94, 121);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/pasta/imagens/tentativa.jpg);
+
+}
+header ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 15px;
+    padding: 12px 0px;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 40px;
+    display: block;
+    padding: 10px;
+
+}
+header:hover {
+    background-color: rgba(0, 0, 0, 1); 
+    transition: 2s;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+
+}
+
+
+button a{
+    text-decoration: none;
+    left: 50px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+button a{
+    text-decoration: none;
+    left: 50px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao{
+    border-radius: 400px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+}
+.botao:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.botao img{
+    width: 15px;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.botao-voltar img{
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+    height: auto;
+}
+.botao-voltar{
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left: 42%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.botao-voltar{
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 1); 
+    color: aliceblue;
+
+
+}
+.botao-voltar:hover{
+    background-color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+.caixa {
+    width: 500px;
+    height: 90vh;
+    padding: 0px;
+    margin-top: px;
+    margin-bottom: 40px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.titulo {
+    margin: 25px;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 0.8%;
+}
+
+.paragrafo {
+    margin: 25px;
+    width: calc(90% - 50px);
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+.ultimo-texto {
+    margin: 25px;
+    width: calc(70% - 50px);
+    text-align: left;
+    position: absolute;
+    bottom: 40px;
+    left: 10%;
+}
+.titulo h1{
+    font-size: xx-large;
+}
+.paragrafo p{
+    font-size: x-large;
+    font-style: normal;
+    font-family: "Poppins", sans-serif
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    justify-content: center;
+}
+.linha {
+    display: flex;
+    justify-content:flex-end;
+}
+.card {
+    background-color: rgb(12, 42, 67);
+    border-radius: 8px;
+    margin: 20px;
+    width: 40vh;
+    height: 210px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(2, 2, 2, 0.80);
+    transition: transform 0.3s ease;
+}
+.card img {
+    border-radius: 8px;
+    width: calc(100% - 40px); /* Ajuste para considerar a margem */
+    height: calc(100% - 40px); /* Ajuste para considerar a margem */
+   
+}
+.card a{
+    text-decoration:dashed;
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 252, 252, 0.2);
+}
